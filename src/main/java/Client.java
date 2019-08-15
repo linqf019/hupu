@@ -4,6 +4,7 @@ public class Client {
     private String address;
     private String age;
     private String hellos;
+    private String id;
     public static void main(String[] args) {
         //    我们要代理的真实对象
         Subject realSubject = new RealSubject();

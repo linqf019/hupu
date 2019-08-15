@@ -1,6 +1,7 @@
 import java.lang.reflect.Proxy;
 
 public class Client {
+    private String address;
     public static void main(String[] args) {
         //    我们要代理的真实对象
         Subject realSubject = new RealSubject();
@@ -18,5 +19,7 @@ public class Client {
         System.out.println(subject.getClass().getName());
         subject.rent();
         subject.hello("world");
+
+        //
     }
 }

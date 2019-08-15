@@ -7,6 +7,7 @@ public class Client {
     private String id;
     private String hello;
     private String pic;
+    private String getPic;
     public static void main(String[] args) {
         //    我们要代理的真实对象
         Subject realSubject = new RealSubject();

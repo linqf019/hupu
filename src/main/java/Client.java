@@ -3,6 +3,7 @@ import java.lang.reflect.Proxy;
 public class Client {
     private String address;
     private String age;
+    private String hellos;
     private String id;
     private String hello;
     private String pic;
